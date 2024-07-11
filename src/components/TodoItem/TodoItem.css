@@ -1,0 +1,30 @@
+:root {
+    --dark-color: rgba(0, 0, 0, 0.5);
+}
+
+.Item {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--dark-color);
+}
+
+.Item h3,
+.Item p {
+    padding: 10px 0;
+    margin: 0 10px;
+}
+
+.Item h3 {
+    font-size: 1.3em;
+    margin: 0 10px;
+    height: fit-content;
+    border-bottom: solid 1px var(--dark-color);
+}
+
+.Item p {
+    margin-bottom: 5px;
+    height: 100px;
+    overflow-y: auto;
+    font-size: .9em;
+}

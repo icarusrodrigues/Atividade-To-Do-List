@@ -1,0 +1,71 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: aqua;
+}   
+
+.Form h2 {
+    text-transform: uppercase;
+}
+
+input, textarea {
+    font-size: .9em;
+}
+
+.FormInfo,
+.FormInfo * {
+    display: flex;
+    align-items: center;
+}
+
+.FormInfo {
+    justify-content: space-between;
+}
+
+.FormInfo > div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.Title,
+.Description {
+    gap: 15px;
+    width: 100%;
+}
+
+.Description textarea {
+    width: 100%;
+    font-size: 16px;
+}
+
+.List {
+    display: flex;
+    gap: 16px;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.List li {
+    width: calc(25% - 12px);
+    list-style-type: none;
+}
+
+#submit-button {
+    cursor: pointer;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#submit-button:hover {
+    background-color: rgb(162, 162, 162);
+}
